@@ -234,6 +234,12 @@ spec:
       - image: quay.io/solo-io/wasme:dev
         args:
         - cache
+        - '--directory'
+        - /var/local/lib/wasme-cache
+        - '--ref-file'
+        - /etc/wasme-cache/images.txt
+        - '--cache-ns'
+        - wasme
         imagePullPolicy: IfNotPresent
         name: wasme-cache
         resources:
