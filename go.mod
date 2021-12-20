@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	github.com/avast/retry-go v2.4.3+incompatible
-	github.com/containerd/containerd v1.3.0
+	github.com/containerd/containerd v1.4.12
 	github.com/deislabs/oras v0.7.0
 	github.com/docker/cli v0.0.0-20191017083524-a8ff7f821017
 	github.com/docker/distribution v2.7.1+incompatible
@@ -15,9 +15,9 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v0.1.0
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-openapi/validate v0.19.5 // indirect
-	github.com/gogo/protobuf v1.3.1
+	github.com/gogo/protobuf v1.3.2
 	github.com/golang/mock v1.4.4-0.20200406172829-6d816de489c1
-	github.com/golang/protobuf v1.3.5
+	github.com/golang/protobuf v1.5.0
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
 	github.com/hashicorp/go-multierror v1.0.0
 	github.com/json-iterator/go v1.1.8 // indirect
@@ -28,10 +28,11 @@ require (
 	github.com/opencontainers/go-digest v1.0.0-rc1
 	github.com/opencontainers/image-spec v1.0.1
 	github.com/opencontainers/runc v1.0.0-rc9 // indirect
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
+	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/pseudomuto/protoc-gen-doc v1.3.0
 	github.com/pseudomuto/protokit v0.2.0
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.8.1
 	github.com/solo-io/gloo v1.3.5
 	github.com/solo-io/go-utils v0.15.2
 	github.com/solo-io/protoc-gen-ext v0.0.7
@@ -39,10 +40,13 @@ require (
 	github.com/solo-io/solo-kit v0.13.5
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.5
+	github.com/stretchr/testify v1.6.1 // indirect
 	go.uber.org/zap v1.13.0
-	golang.org/x/crypto v0.0.0-20200423211502-4bdfaf469ed5 // indirect
-	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
-	golang.org/x/sys v0.0.0-20200420163511-1957bb5e6d1f // indirect
+	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
+	google.golang.org/genproto v0.0.0-20200224152610-e50cd9704f63 // indirect
+	google.golang.org/grpc v1.27.1 // indirect
+	google.golang.org/protobuf v1.27.1 // indirect
+	gotest.tools/v3 v3.0.3 // indirect
 	istio.io/api v0.0.0-20191109011911-e51134872853
 	istio.io/client-go v0.0.0-20191206191348-5c576a7ecef0
 	istio.io/gogo-genproto v0.0.0-20191009201739-17d570f95998 // indirect
