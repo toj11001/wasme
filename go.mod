@@ -26,7 +26,7 @@ require (
 	github.com/onsi/ginkgo v1.12.0
 	github.com/onsi/gomega v1.8.1
 	github.com/opencontainers/go-digest v1.0.0-rc1
-	github.com/opencontainers/image-spec v1.0.1
+	github.com/opencontainers/image-spec v1.0.2
 	github.com/opencontainers/runc v1.0.0-rc9 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/pseudomuto/protoc-gen-doc v1.3.0
